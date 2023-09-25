@@ -23,3 +23,11 @@ let numInStr = String(33);
 console.log(numInStr);
 
 console.table([score, numberInString, x, bool]);
+
+
+
+// ------------------------------------- String to Number operation -------------------------------------
+let value = 33;
+console.log(value + "23" + 4);  
+console.log(33 + 4 + "23"); // doable operaiton is being done first; then convert both to string
+
