@@ -1,6 +1,7 @@
 const naam = "Alice";
 const age = 30;
 
+// use of back tick is called string interpolation
 const message = `My name is ${naam} and I am ${age} years old.`;
 
 console.log(message);
